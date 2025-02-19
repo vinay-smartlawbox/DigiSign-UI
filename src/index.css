@@ -1,0 +1,38 @@
+
+
+/* font styles */
+@font-face {
+  font-family: "Mulish-Regular";
+  src: url("./assets/fonts/Mulish-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Mulish-Regular.woff") format("woff"),
+    url("./assets/fonts/Mulish-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mulish-Bold";
+  src: url("./assets/fonts/Mulish-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Mulish-Bold.woff") format("woff"),
+    url("./assets/fonts/Mulish-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mulish-Light";
+  src: url("./assets/fonts/Mulish-Light.woff2") format("woff2"),
+    url("./assets/fonts/Mulish-Light.woff") format("woff"),
+    url("./assets/fonts/Mulish-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mulish-Medium";
+  src: url("./assets/fonts/Mulish-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Mulish-Medium.woff") format("woff"),
+    url("./assets/fonts/Mulish-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}

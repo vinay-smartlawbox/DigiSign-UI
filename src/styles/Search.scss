@@ -1,0 +1,31 @@
+.col-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5f6fa;
+  border-radius: 220px;
+  padding: 8px 12px;
+  width: auto;
+  border: 1px solid #d5d5d5;
+  opacity: 0.5;
+  height: auto;
+  width: auto;
+}
+
+.search-input-block {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #202224;
+  font-family: Mulish-Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

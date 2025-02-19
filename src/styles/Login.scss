@@ -1,0 +1,137 @@
+.login-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+}
+
+.image-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-image {
+  width: 500px;
+  height: 500px;
+}
+
+.text-block {
+  width: 400px;
+}
+
+.text1 {
+  color: #333;
+  font-family: Mulish-Regular;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text2 {
+  color: #333;
+  font-family: Mulish-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input-block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  font-family: Mulish-Regular;
+  width: 600px;
+  height: auto;
+  border-radius: 20px;
+  background: rgba(31, 80, 57, 0.04);
+  padding: 20px;
+}
+
+.input-login-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 350px;
+  height: 600px;
+  gap: 10px;
+}
+
+.login-logo {
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-welcome-text {
+  margin-top: 10px;
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.login-title-text {
+  color: #333;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.login-label {
+  font-size: 14px;
+  font-style: normal;
+  // margin-top: 20px;
+}
+
+.label-bold {
+  font-weight: 600;
+  color: #000;
+  line-height: normal;
+}
+
+.label-light {
+  color: #333;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.login-field {
+  display: flex;
+  height: 40px;
+  padding: 9px 18px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 100px;
+  border: 1px solid #d8d8d8;
+  width: 320px;
+  background: transparent;
+}
+
+.input-check {
+  display: flex;
+  width: 50px;
+  align-items: center;
+  gap: 4px;
+}
+
+.login-form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+  justify-content: center;
+}
+
+.login-button {
+  width: 320px !important;
+}

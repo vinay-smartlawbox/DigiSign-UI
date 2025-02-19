@@ -1,0 +1,29 @@
+.main-content {
+  display: grid;
+  height: calc(100vh - 80px);
+  position: relative;
+  transition: all 0.5s;
+}
+
+.main-content-expanded {
+  grid-template-columns: 170px 1fr;
+}
+.main-content-collapsed {
+  grid-template-columns: 90px 1fr;
+}
+.debug {
+  border: #000 solid 2px;
+}
+body {
+  margin: 0;
+  padding: 0px 10px;
+}
+button {
+  border: none;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background: transparent;
+}
